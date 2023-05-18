@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="arreglo.js"></script>
+    <form>
+        <fieldset>
+            <legend>Cargar arreglo</legend>
+            <label for="uno">Arreglo A<input type="number" id="uno" placeholder="ej. 1"></label>
+            <label for="dos">Arreglo B<input type="number" id="dos" placeholder="ej. 2"></label>
+            <br>
+            <input type="button" value="Cargar" onclick="Cargar(a,b)">
+            <input type="button" value="Sumar" onclick="Sumar(a,b,c)">
+            <input type="button" value="Intercambiar" onclick="Intercambiar(a,b,aux)">
+        </fieldset>
+    </form>
+    <br>
+    <div>
+        Arreglos
+        <p id="aa"></p>
+        <p id="ab"></p>
+    </div>
+    <hr>
+    <div>
+        Suma
+        <p id="resultado_a"></p>
+        <p id="resultado_b"></p>
+        <i><b id="resultado_c"></b></i>
+    </div>
+    <hr>
+    <div>
+        Intercambio
+        <p id="Intercambio_a"></p>
+        <p id="Intercambio_b"></p>
+    </div>
+    <hr> 
+    <label for="uno">Buscar en arreglo A<input type="number" id="uno" placeholder="ej. 1"></label>
+    <input type="button" value="Buscar" onclick="Buscar(a,b)">
+    <br>
+    <label for="uno">Buscar en arreglo B<input type="number" id="uno" placeholder="ej. 1"></label>
+    <input type="button" value="Buscar" onclick="Buscar(a,b)">
+    <br>
+    <label for="uno">Buscar en arreglo C<input type="number" id="uno" placeholder="ej. 1"></label>
+    <input type="button" value="Buscar" onclick="Buscar(a,b)">
+</body>
+</html>

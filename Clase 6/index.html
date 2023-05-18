@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script src="main.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Cargar Arreglo</legend>
+            <label for="arreglo1">Arreglo A</label><input type="number" id="arreglo1" placeholder="ej. 1">
+            <br><br>
+            <label for="arreglo2">Arreglo B</label><input type="number" id="arreglo2" placeholder="ej. 2">
+            <br><br>
+            <input type="button" value="Cargar" onclick="Cargar()">  
+            <input type="button" value="Sumar" onclick="Sumar()" id="suma" disabled>     
+            <input type="button" value="Intercambio" onclick="Intercambio()" id="intercambio" disabled>    
+        </fieldset>
+    </form>
+<br>
+<div>Arreglo</div>
+<p id="mostrar1"></p>
+<p id="mostrar2"></p>
+<hr>
+<div>Suma</div>
+<p id="mostrarsuma"></p>
+<hr>
+<div>Intercambio</div>
+<p></p>
+<p></p>
+<hr>
+
+<Label for="uno">Buscar en arreglo A</Label><input type="number" id="uno">
+<input type="button" value="Buscar">
+<br><br>
+<label for="dos">Buscar en arreglo B</label><input type="number" id="dos">
+<input type="button" value="Buscar">
+<br><br>
+<Label for="tres">Buscar en arreglo C</Label><input type="number" id="tres">
+<input type="button" value="Buscar">
+<br><br>
+</body>
+</html>
